@@ -22,3 +22,8 @@ regions:
 libraries:
   - 'mitierra/global-styling'
   - 'mitierra/bootstrap-scripts'
+
+component-libraries:
+  components:
+    paths:
+      - scss/components

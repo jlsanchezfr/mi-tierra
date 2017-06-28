@@ -1,0 +1,18 @@
+<div class="default-teaser-wrapper">
+	<div class="default-teaser">
+		<div class="image">
+			<img src="{{ image.source }}" alt="{{ image.alt }}">
+		</div>
+		<div class="tile">
+			<h3>{{ title }}</h3>
+		</div>
+		{% if body %}
+			<div class="body">
+				{{ body }}
+			</div>
+		{% endif %}
+		<div class="cta read-more">
+			<a href="{{ link }}">{{ 'Leer Mas' }}</a>
+		</div>
+	</div>
+</div>

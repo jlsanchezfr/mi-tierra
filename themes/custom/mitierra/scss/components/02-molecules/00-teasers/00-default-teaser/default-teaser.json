@@ -1,0 +1,9 @@
+{
+	"image":{
+		"source": "assets/default.jpg",
+		"alt": "Alt text"
+	},
+	"title": "Lorem ipsum dolor.",
+	"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dignissimos ducimus voluptas",
+	"link": "/"
+}
