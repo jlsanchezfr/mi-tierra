@@ -3,7 +3,7 @@ type: theme
 base theme: bootstrap
 
 name: 'Mi Tierra Tema'
-description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
+description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
 package: 'Bootstrap'
 
 regions:
@@ -12,9 +12,11 @@ regions:
   header: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
+  admin: 'Admin Area'
   content: 'Content'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
+  content_footer: 'Content Footer'
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
@@ -22,8 +24,3 @@ regions:
 libraries:
   - 'mitierra/global-styling'
   - 'mitierra/bootstrap-scripts'
-
-component-libraries:
-  components:
-    paths:
-      - scss/components

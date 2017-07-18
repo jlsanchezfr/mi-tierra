@@ -1,0 +1,36 @@
+// Browser Prefixes
+.transform(@transforms) {
+  transform: @transforms;
+  -webkit-transform: @transforms;
+  -moz-transform: @transforms;
+  -ms-transform: @transforms;
+}
+
+// Rotate
+/*.rotate (@deg) { 
+  .transform(rotate(#{@deg}deg));
+}
+*/
+
+// Scale
+.scale(@scale ) {
+  .transform(scale(@scale ));
+}
+
+// Translate
+.translate (@x, @y ) {
+  .transform(translate(@x, @y ));
+}
+// Skew
+/*.skew (@x, @y ) {
+  .transform(skew(#{@x}deg, #{@y}deg));
+}
+*/
+
+// Transform Origin
+.transform-origin (@origin) {
+  -webkit-transform-origin: @origin;
+  -moz-transform-origin: @origin;
+  -ms-transform-origin: @origin;
+  transform-origin: @origin;
+}

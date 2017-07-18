@@ -1,0 +1,5 @@
+name: BlockView
+description: Embeds View within a Block Wrapper.
+type: module
+package: MiTierra
+core: 8.x

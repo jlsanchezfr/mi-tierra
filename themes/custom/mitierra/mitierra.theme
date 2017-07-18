@@ -5,3 +5,24 @@
  *
  * Place your custom PHP code in this file.
  */
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function mitierra_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $content_type = $node->bundle();
+    $suggestions[] = 'page__node_type__' . $content_type;
+  }
+
+  /*
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  switch ($route_name) {
+    case 'view.bio.page_1':
+      $suggestions[] = 'page__view__bio';
+      break;
+    case 'view.spotlight_articles_solr.page_1':
+      $suggestions[] = 'page__view__spotlight_articles';
+      break;
+  }*/
+}

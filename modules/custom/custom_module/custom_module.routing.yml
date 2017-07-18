@@ -1,0 +1,7 @@
+custom_module.form:
+  path: '/custom_module/form'
+  defaults:
+    _form: '\Drupal\custom_module\Form\EmailForm'
+    _title: 'Email Form'
+  requirements:
+    _permission: 'access content'

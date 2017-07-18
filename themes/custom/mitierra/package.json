@@ -1,19 +1,25 @@
 {
   "name": "mitierra",
   "version": "1.0.0",
-  "description": "Created for manage mi Tierra theme assets.",
+  "description": "mi tierra packages",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "sassdoc": "^2.3.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "less-plugin-glob": "^2.0.0"
+  },
+  "dependencies": {
+    "grunt-contrib-less": "^1.4.1",
+    "jit-grunt": "^0.10.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt": "^1.0.1",
+    "less-plugin-glob": "^2.0.0"
+  }
 }
